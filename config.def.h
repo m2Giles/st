@@ -227,7 +227,6 @@ ResourcePref resources[] = {
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
         { "alpha",        FLOAT,   &alpha },
-        { "alpha_offset", Float,   &alpha_offset },
 };
 
 /*
