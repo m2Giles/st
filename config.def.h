@@ -141,7 +141,7 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6",
 	"#555555",
-	"#282828", /* default background colour */
+	"#1d2021", /* default background colour */
 	"ebdbb2", /* default foreground colour */
 };
 
@@ -227,6 +227,7 @@ ResourcePref resources[] = {
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
         { "alpha",        FLOAT,   &alpha },
+        { "alpha_offset", Float,   &alpha_offset },
 };
 
 /*
