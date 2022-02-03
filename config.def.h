@@ -8,8 +8,8 @@
 static char *font = "Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-//	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", 
-//	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", 
+//	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true",
+//	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
@@ -142,7 +142,7 @@ static const char *colorname[] = {
 	"white",
 	"#555555",
 	"#282828", /* default background colour */
-	"white", /* default foreground colour */
+	"#ebdbb2", /* default foreground colour */
 };
 
 
@@ -213,8 +213,8 @@ ResourcePref resources[] = {
 		{ "color13",      STRING,  &colorname[13] },
 		{ "color14",      STRING,  &colorname[14] },
 		{ "color15",      STRING,  &colorname[15] },
-		{ "background",   STRING,  &colorname[258] },
-		{ "foreground",   STRING,  &colorname[259] },
+		{ "background",   STRING,  &colorname[256] },
+		{ "foreground",   STRING,  &colorname[257] },
 		{ "cursorColor",  STRING,  &colorname[256] },
 		{ "termname",     STRING,  &termname },
 		{ "shell",        STRING,  &shell },
@@ -226,7 +226,7 @@ ResourcePref resources[] = {
 		{ "borderpx",     INTEGER, &borderpx },
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
-        { "alpha",        FLOAT,   &alpha },
+    { "alpha",        FLOAT,   &alpha },
 };
 
 /*
@@ -544,3 +544,4 @@ static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
+
